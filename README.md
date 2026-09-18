@@ -15,19 +15,15 @@ A brief, one-paragraph description of what this project does.
 - No Packages needed to install
 
 ### Installation
-1. cloning: git clone 
-1.	Clone the repo:
-   	Run the command … git clone https://github.com
-2.	Step 2: 
-3.	Step 3:
-4.	Step 4:
-
+1. cloning: git clone git@github.com:SANGWA-JAVA-APPS/portofolio-assignment.git
+2. In the folder you will find and index.html file
+3. Open with a browser of your choice 
+   	
 ## License
-State whether this project requires a license to run? Or is it a Creative commons license? Or is it for educational purpose? Or do people need special permission to use it? What are the limitations? 
-Add a link to the lincense.txt file in the same repository. 
+	No License needed !
 
 #Contributors
-Add a list of persons or companies that have made contributions to your project. If it is just you, then list only your name. 
+ Waiting for contributors
 
 ## Project link
-Project Link: [https://github.com](https://github.com)
+Project Link: git@github.com:SANGWA-JAVA-APPS/portofolio-assignment.git

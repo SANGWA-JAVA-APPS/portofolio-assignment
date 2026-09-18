@@ -1,70 +1,208 @@
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Eng. SANGWA Emmanuel, software engineer and CEO of CODEGURU Ltd.">
     <link href="styles/main.css" rel="stylesheet">
-    <title>My Portfolio: Insert name here</title>
-    <link rel="icon" href="styles/ArchivoBlack-Regular.ttf" type="font/ttf">
+    <title>Eng. SANGWA Emmanuel | Software Engineer</title>
 </head>
 
 <body>
-    <!-- Start of about me section-->
-    <center>
-        <h1 class="title">SANGWA Portfolio</h1>
-        <i>Eng. Clovis Wanziguya III</i>
-    </center>
-    <div class="row content-row" >
-        <div class="col-lg-2">
+    <header class="site-header">
+        <div class="page-shell nav-wrap">
+            <a class="brand" href="#top" aria-label="SANGWA Emmanuel home">
+                <span class="brand-mark">SE</span>
+                <span>SANGWA Emmanuel</span>
+            </a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-        </div>
-        <div class="col-lg-6" style="border-color: 1px solid #000">
-            <p>
-                <!-- Section to highlight about me-->
-                <br>
-                <span class="supScript">I</span>
-                 am a highly motivated and results-driven
-                professional with a strong background in
-                Software development. With a passion for
-                knowledge sharing, I have developed expertise in
-                [key skills or areas of specialization].
-                My experience includes [briefly mention relevant experience or achievements]. I am committed to
-                continuous learning and growth, and I thrive in collaborative environments where I can
-                contribute to
-                innovative projects.
-            </p>
-        </div>
-        <div class="col-lg-4">
-            <div class="profile-img">
-                <img src="images/avatar.png" class="img" style=" height: auto;" alt="Profile Image">
+    <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="page-shell hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Software Engineer &amp; CEO, CODEGURU Ltd</p>
+                    <h1 id="hero-title">Business ideas turned into practical software.</h1>
+                    <p class="hero-summary">I design and build reliable systems for operations, reporting, automation, and growth.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">View my work</a>
+                        <a class="button button-secondary" href="#contact">Discuss a project</a>
+                    </div>
+                    <ul class="focus-list" aria-label="Core areas of expertise">
+                        <li>Business systems</li>
+                        <li>System integration</li>
+                        <li>Low-code development</li>
+                    </ul>
+                </div>
+                <div class="portrait-wrap">
+                    <img src="images/avatar.png" class="portrait" alt="Eng. SANGWA Emmanuel">
+                    <div class="portrait-label">
+                        <strong>Eng. SANGWA Emmanuel</strong>
+                        <span>Building software that works for business</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-section" id="about" aria-labelledby="about-title">
+            <div class="page-shell section-grid">
+                <div>
+                    <p class="section-number">01 / About</p>
+                    <h2 id="about-title">Engineering with a business mindset.</h2>
+                </div>
+                <div class="about-copy">
+                    <p>I am a highly motivated and results-driven software engineer and the CEO of CODEGURU Ltd, with extensive experience in designing and developing innovative business software solutions. I specialize in Java, Spring Boot, React, mobile application development, database design, system integration, automation, and low-code development.</p>
+                    <p class="read-more" id="about-more">I have developed and managed systems for inventory and multi-branch operations, port management, business administration, reporting, and workflow automation. I am also developing Gigaflex, a low-code platform designed to accelerate software development through reusable metadata, patterns, strategies, and code templates. Passionate about knowledge sharing and continuous learning, I thrive in collaborative environments where I can solve complex business problems and transform ideas into reliable, scalable, and practical technology solutions.</p>
+                    <button class="read-more-toggle" type="button" aria-expanded="false" aria-controls="about-more">Read more</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section services-section" id="services" aria-labelledby="services-title">
+            <div class="page-shell">
+                <div class="section-heading">
+                    <p class="section-number">02 / What I build</p>
+                    <h2 id="services-title">Software shaped around real operations.</h2>
+                </div>
+                <div class="service-grid">
+                    <article class="service-item">
+                        <span class="service-index">A</span>
+                        <h3>Business Platforms</h3>
+                        <p>Custom systems for administration, inventory, multi-branch operations, and reporting.</p>
+                    </article>
+                    <article class="service-item">
+                        <span class="service-index">B</span>
+                        <h3>Workflow Automation</h3>
+                        <p>Practical tools that connect processes, reduce repetitive work, and improve visibility.</p>
+                    </article>
+                    <article class="service-item">
+                        <span class="service-index">C</span>
+                        <h3>Connected Applications</h3>
+                        <p>Web and mobile applications backed by databases, integrations, and maintainable services.</p>
+                    </article>
+                    <article class="service-item">
+                        <span class="service-index">D</span>
+                        <h3>Low-Code Solutions</h3>
+                        <p>Reusable metadata, patterns, strategies, and templates that accelerate delivery.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+            <div class="page-shell">
+                <div class="section-heading">
+                    <p class="section-number">03 / Selected work</p>
+                    <h2 id="projects-title">Systems designed for complex work.</h2>
+                </div>
+                <div class="project-list">
+                    <article class="project-item">
+                        <div class="project-number">01</div>
+                        <div class="project-content">
+                            <p class="project-type">Low-code platform / In development</p>
+                            <h3>Gigaflex</h3>
+                            <p>A platform designed to accelerate software development through reusable metadata, patterns, strategies, and code templates.</p>
+                            <ul class="tag-list" aria-label="Gigaflex capabilities">
+                                <li>Low-code</li>
+                                <li>Code generation</li>
+                                <li>Reusable patterns</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="project-item">
+                        <div class="project-number">02</div>
+                        <div class="project-content">
+                            <p class="project-type">Operations software</p>
+                            <h3>Port Management System</h3>
+                            <p>A business platform for managing port operations, administration, reporting, and coordinated workflows.</p>
+                            <ul class="tag-list" aria-label="Port management system capabilities">
+                                <li>Operations</li>
+                                <li>Reporting</li>
+                                <li>Workflow</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="project-item">
+                        <div class="project-number">03</div>
+                        <div class="project-content">
+                            <p class="project-type">Business administration</p>
+                            <h3>Inventory &amp; Multi-Branch Systems</h3>
+                            <p>Systems supporting inventory visibility, branch-level operations, business administration, and distribution reporting.</p>
+                            <ul class="tag-list" aria-label="Inventory system capabilities">
+                                <li>Inventory</li>
+                                <li>Multi-branch</li>
+                                <li>Distribution</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section stack-section" aria-labelledby="stack-title">
+            <div class="page-shell stack-grid">
+                <div>
+                    <p class="section-number">04 / Technology</p>
+                    <h2 id="stack-title">A stack chosen for dependable delivery.</h2>
+                </div>
+                <dl class="stack-list">
+                    <div><dt>Backend</dt><dd>Java, Spring Boot</dd></div>
+                    <div><dt>Frontend</dt><dd>React</dd></div>
+                    <div><dt>Applications</dt><dd>Web, mobile, low-code</dd></div>
+                    <div><dt>Systems</dt><dd>Databases, integration, automation</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contact-title">
+            <div class="page-shell contact-grid">
+                <div>
+                    <p class="section-number">05 / Contact</p>
+                    <h2 id="contact-title">Have a business process that needs a better system?</h2>
+                </div>
+                <div class="contact-copy">
+                    <p>Let's discuss the workflow, the people who use it, and the software that can move it forward.</p>
+                    <div class="contact-links">
+                        <a class="button button-primary" href="https://www.linkedin.com/in/sangwa-e/" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+                        <a class="button button-secondary" href="https://github.com/SANGWA-JAVA-APPS" target="_blank" rel="noreferrer">View GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="page-shell footer-wrap">
+            <span>Eng. SANGWA Emmanuel</span>
+            <span>CEO, CODEGURU Ltd</span>
+            <div class="footer-links">
+                <a href="https://github.com/SANGWA-JAVA-APPS" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/sangwa-e/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <span>&copy; <span id="current-year"></span></span>
             </div>
         </div>
-    </div>
-    <!-- End of about me section-->
+    </footer>
 
-    <!-- Start of projects section -->
-    <div class="row list">
-        <div class="col-lg-2">
+    <script>
+        const readMoreButton = document.querySelector('.read-more-toggle');
+        const readMoreParagraph = document.querySelector('.read-more');
 
-        </div>
-        <div class="col-lg-4">
-            <h2>Code Generator</h2>
-            <div class="liner"></div>
-            <ul>
-                <li><a href="project1.html">Project 1: Distribution Reporting </a></li>
-                <li><a href="project2.html">Project 2: [Project Name]</a></li>
-                <li><a href="project3.html">Project 3: [Project Name]</a></li>
-            </ul>
-        </div>
-        <div class="col-lg-4">
-            <h2>Port Management System</h2>
-            <div class="liner"></div>
-            <ul>
-                <li><a href="project1.html">Project 1: [Project Name]</a></li>
-                <li><a href="project2.html">Project 2: [Project Name]</a></li>
-                <li><a href="project3.html">Project 3: [Project Name]</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- End of projects section -->
+        readMoreButton.addEventListener('click', () => {
+            const isExpanded = readMoreParagraph.classList.toggle('expanded');
+            readMoreButton.textContent = isExpanded ? 'Read less' : 'Read more';
+            readMoreButton.setAttribute('aria-expanded', isExpanded);
+        });
+
+        document.querySelector('#current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
