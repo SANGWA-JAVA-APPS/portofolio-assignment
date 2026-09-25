@@ -26,7 +26,7 @@ A responsive personal portfolio presenting Eng. SANGWA Emmanuel's software engin
 
 ## License
 
-No project license has been specified. The bundled fonts include their own license files under `styles/`.
+The original portfolio code and documentation are released under the Unlicense. Bootstrap-derived CSS remains under the MIT License, and bundled fonts remain under the SIL Open Font License 1.1. The personal avatar is excluded from these grants. See [LICENSE.txt](LICENSE.txt) for the complete terms.
 
 ## Contributors
 
